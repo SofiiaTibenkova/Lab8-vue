@@ -36,8 +36,8 @@ import ProjectCard from '../components/ProjectCard.vue';
 const searchQuery = ref('');
 
 const projects = ref([
-  { id: 1, title: 'Квітковий магазин', description: 'Веб-проєкт магазину квітів', link: '/Flowershop.html' },
-  { id: 2, title: 'Космічні запуски', description: 'Відстеження місій', link: '/space.html' },
+  { id: 1, title: 'Квітковий магазин', description: 'Веб-проєкт магазину квітів', link: 'Flowershop.html' },
+  { id: 2, title: 'Космічні запуски', description: 'Відстеження місій', link: 'space.html' },
 ]);
 
 const filteredProjects = computed(() => {
